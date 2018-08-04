@@ -62,6 +62,18 @@ not update with the code written on my file. */
     height: 500px;
     top: 30px;
     left: 30px; 
+    border-color: #dddddd; 
+}
+
+/* need to figure out how to move columns */
+.column {
+    align-content: center;
+}
+
+/* could not resize images */
+img{
+    width: 250px; 
+    height: 250px;
 }
 
 .footer {
