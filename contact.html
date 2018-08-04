@@ -1,16 +1,67 @@
-<!doctype html> 
+<!doctype html>
 <html lang="eng-us">
-    <head> 
-        <meta charset="UTF-8">
-        <title>Basic Portfolio</title>
-        <link rel="stylesheet" type="text/CSS" href="style.css"
-    </head>
-<body>
-    <h1>Contact</h1>
 
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Portfolio</title>
+    <style>
+            body {
+                background: url("/Users/andreahalloran/Bootcamp/Basic-Portfolio/Basic-Portfolio/assets/images/new_year_background.png");
+            }
+    </style>
+    <link rel="stylesheet" type="text/CSS" href="assets/css/contact.css"> 
+</head>
+
+<body>
+    <div class='wrapper'>
+            <div class="container">
+                    <div class="header"> 
+                        <div class="name">
+                            <h1>Andrea Halloran</h1> 
+                        </div>  
+                        <div class="links">
+                            <a href="index.html">About</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+            </div>
+    </div>
+    
+    <div class="container">  
+            <form class="contact" action="" method="post">
+              <h2>Contact</h2>
+              <hr width="875">
+           <br>
+              <fieldset>
+                <label for="Name">First Name</label>
+                <br>
+                <br>
+                <input placeholder="John Smith" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <label for="Email">Email</label>
+                <br>
+                <br>
+                <input placeholder="example@gmail.com" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <label for="Message">Message</label>
+                <br>
+                <br>
+                <input placeholder="" type="message" tabindex="3" required>
+              </fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+              </form>
+           
+            
+          </div>
+    </div>
+
+<div class="footer">
+<footer> Copyright © </footer>
+</div>
 
 </body>
-</html> 
+</html>
